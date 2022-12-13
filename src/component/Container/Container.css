@@ -1,0 +1,187 @@
+#container{
+    padding: 20px 30px;
+    position: absolute;
+    left: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.container_1 img{
+    width: 775px;
+    border: 1px solid lightgray;
+}
+.news_companys{
+    width: 775px;
+    height: 240px;
+    border: 1px solid lightgray;
+}
+
+.container_image2 img{
+    width: 370px;
+    border: 1px solid lightgray;
+    margin-top: 15px;
+}
+.profile_top{
+    display: flex;
+    align-items: center;
+}
+.profile_info{
+    margin-left: 15px;
+}
+
+.profile_image img{
+    width: 70px;
+}
+.profile_name{
+    font-weight: bold;
+}
+.profile_slice{
+    color: lightgray;
+    font-size: 15px;
+}
+.profile_name, .profile_slice{
+    font-size: 15px;
+}
+.email, .profile_id{
+    margin-right: 30px;
+}
+.mail, .post{
+    margin-right: 5px;
+}
+.mail_cnt, .post_cnt{
+    margin-right: 10px;
+}
+.mail, .mail_cnt, .email, .profile_id, .post, .post_cnt{
+    font-size: 14px;
+}
+.logout_button{
+    background-color: lightgray;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 10px;
+    color: white;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.logout_button:hover{
+    background-color: gray;
+}
+.mail_cnt, .post_cnt{
+    color: #19CE60;
+    font-weight: bold;
+}
+#container .container_right{
+    width: 370px;
+}
+.button{
+    width: 90px;
+    height: 40px;
+    background-color: #F7F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.profile_top{
+    width: 328px;
+    background-color: #F7F9FA;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 20px;
+}
+.button:last-child{
+    border-right: 1px solid lightgray;
+}
+.profile_bottom{
+    display: flex;
+    flex-direction: row;
+}
+.container_left{
+    margin-right: 30px;
+}
+.container_2 {
+    width: 745px;
+    background-color: #F7F9FA;
+    border: 1px solid lightgray;
+    padding: 15px;
+    font-size: 13px;
+    display: flex;
+    margin-top: 10px;
+}
+.container_3{
+    width: 775px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.title_1{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.more_icon img{
+    width: 10px;
+    margin-left: -5px;
+    margin-right: 5px;
+}
+.temp{
+    display: flex;
+    align-items: center;
+}
+.start_more_icon{
+    width: 8px;
+}
+.news_icon img{
+    width: 25px;
+    height: 25px;
+}
+.hover:hover, .news:hover, .profile_image:hover, .profile_name:hover, .profile_id:hover, .start_more_icon:hover, .logout_button:hover, .button:hover{
+    cursor: pointer;
+}
+
+.news:hover, .profile_id:hover, .member_ship_start:hover, .mail_div:hover, .post_div:hover, .start_div:hover{
+    text-decoration: underline;
+}
+.list_icon, .container_3 .tab_icon, .member_ship_icon{
+    margin-right: 10px;
+}
+.list_icon img, .tab_icon img, .set_icon img{
+    width: 15px;
+    height: 15px;
+}
+#container .container_2 .news_home{
+    color: #4A6ECC;
+}
+#container .container_2 .left_blank{
+    margin-left: 13px;
+}
+.bold{
+    font-weight: bold;
+}
+#container .container_2 .dot{
+    color: gray;
+}
+#container .container_3 .news_icon{
+    margin-right: 10px;
+}
+#container .container_3 .more_icon img{
+    width: 10px;
+    margin: 0 5px;
+}
+.info_bottom{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.member_ship_icon{
+    width: 20px;
+}
+.member_ship_start{
+    font-size: 13px;
+}
