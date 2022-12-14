@@ -1,8 +1,8 @@
 import './Navigation.css'
 
-const NavContent = () => {
+const Navigation = () => {
     return(
-        <>
+        <div id="nav">
             <ul className="menu">
                 <li className='left_box'><a href='https://mail.naver.com/v2/folders/0/all'><img className='mail_icon' src={require('../../image/mail_icon.png')}/>메일</a></li>
                 <li className='left_box'><a href='#'>카페</a></li>
@@ -23,18 +23,6 @@ const NavContent = () => {
                 <li className='right_box'><a href='#'>도서</a></li>
                 <li className='right_box'><a href='#'>웹툰</a></li>
             </ul>
-            <div className='animation_box'>
-                <div>
-
-                </div>
-            </div>
-        </>
-    )
-}
-const Navigation = () => {
-    return(
-        <div id="nav">
-            <NavContent/>
         </div>
     )
 }

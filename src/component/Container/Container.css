@@ -1,9 +1,8 @@
 #container{
-    padding: 20px 30px;
-    position: absolute;
-    left: 300px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
 }
 .container_1 img{
     width: 775px;
@@ -104,7 +103,7 @@
     flex-direction: row;
 }
 .container_left{
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .container_2 {
     width: 745px;

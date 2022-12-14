@@ -2,16 +2,14 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    width: 1200px;
     height: 50px;
-    padding: 15px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin: 30px auto;
 }
 
 #header .logo {
     height: 50px;
-    position: absolute;
-    left: 320px;
+    margin-right: 15px;
 }
 
 #header .logo:hover, .search_bar:hover {
@@ -22,8 +20,6 @@
     width: 500px;
     height: 50px;
     border: 2px solid #19CE60;
-    position: absolute;
-    left: 580px;
     font-size: 18px;
     padding-left: 15px;
     font-weight: bold;
@@ -34,8 +30,6 @@
     width: 500px;
     height: 50px;
     border: 2px solid #19CE60;
-    position: absolute;
-    left: 580px;
     font-size: 18px;
     padding-left: 15px;
     font-weight: bold;
@@ -44,8 +38,6 @@
 }
 
 #header .search_bar {
-    position: absolute;
     width: 56px;
     height: 56px;
-    left: 1100px;
 }
