@@ -50,6 +50,7 @@ const ContainerLeft = () => {
         </div>
     )
 }
+
 const ContainerRight = () => {
     return(
         <div className='container_right'>
