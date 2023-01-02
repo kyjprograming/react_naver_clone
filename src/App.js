@@ -5,15 +5,15 @@ import Navigation from './component/Nav/Navigatoin';
 
 const NoSupportScreen = (props) => {
   return(
-    <div style={{width: window.innerWidth, height: window.innerHeight, justifyContent: 'center', display: 'flex', alignItems: 'center', fontSize: 40}}>
-      <span>지원하지 않는 {props.text}입니다.</span>
+    <div style={{width: '100%', height: window.innerHeight, fontSize: 30, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+      <span >지원하지 않는 {props.text}입니다.</span>
     </div>
   )
 }
 const App = () => {
   const { detect } = require('detect-browser');
   const browser = detect();
-  if (!browser.os.includes('Android') && !browser.os.includes("Ios")) {
+  if (!browser.os.toLocaleLowerCase().includes('android') && !browser.os.toLowerCase().includes("ios") && (window.innerWidth > window.innerHeight)) {
     if(!browser.name.includes('samsung') && window.innerWidth > 1200){
       return (
         <div id='home'>
